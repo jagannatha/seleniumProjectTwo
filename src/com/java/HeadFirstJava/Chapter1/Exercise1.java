@@ -6,14 +6,14 @@ public class Exercise1 {
 
 
 		while(x>0){
-			
+
 			if(x>2){
 				System.out.println("a");
 			}
 
 			x=x-1;
 			System.out.println("-");
-			
+
 			if(x==2)
 			{
 				System.out.println("b c ");
