@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.seleniumexercise.HandlingDropDown">
+      <class name="com.seleniumexercise.Datepicker">
         <methods>
-          <include name="setUp"/>
-          <include name="testSelectFunctionality"/>
-          <include name="tearDown"/>
+          <include name="pickExpDate"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- com.seleniumexercise.HandlingDropDown -->
+      </class> <!-- com.seleniumexercise.Datepicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
